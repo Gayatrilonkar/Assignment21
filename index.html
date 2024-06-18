@@ -1,38 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receipt</title>
     <style>
-        .logo{
+        .logo {
             width: 100px;
             display: block;
             margin: 0 auto;
 
         }
-        .h2{
+
+        .h2 {
             text-align: center;
             font-size: 1.5rem;
             font-weight: 300;
 
         }
-        .contanier{
-            width: 80%;
+
+        .contanier {
+            width: 70%;
             border: 1px solid grey;
-            margin: 0 auto;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 45px 35px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
         }
+
         body {
             background-color: #404040;
         }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            padding: 0 10px;
+
+        }
+
+        .address {
+            text-align: right;
+            padding-left: 20px;
+        }
+
+        .recepit-body {
+
+            font-weight: bold;
+        }
     </style>
 </head>
+
 <body>
     <div class="contanier">
-    <img src="https://images.shiksha.com/mediadata/images/1571990208phpCoii2i.jpg" class="logo">
-    <h2 class="h2">Sinhgad College of Engineering LONAVALA</h2>
-</div>
-    
+        <div class="header">
+            <img src="https://images.shiksha.com/mediadata/images/1571990208phpCoii2i.jpg" class="logo">
+            <h2 class="h2">Sinhgad College of Engineering LONAVALA</h2>
+            <p class="address">
+                GAT NO. 309/310,, OPP. MUMBAI PUNE <br />
+                KUSGAON (BK.), LONAVALA, <br />
+                TAL MAVAL, DIST PUNE <br />
+                Phone No. : 02114673355 <br />
+                Email : sitaccounts@sinhgad.edu
+            </p>
+
+
+
+        </div>
+        <div class="recepit-body">
+            <p><span>Date:</span> 05-05-2024</p>
+            <p><span>Receipt No.:</span> LSIT/2024/627003</p>
+
+        </div>
+        <div class="recepit-footer">
+
+        </div>
+    </div>
+
 </body>
+
 </html>
