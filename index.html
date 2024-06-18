@@ -52,6 +52,88 @@
 
             font-weight: bold;
         }
+        .student-details {
+            margin-top: 5px;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .student-details span{
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .table {
+            width: 90%;
+            border: 1px solid #000;
+            margin: 10px auto 0 auto;
+        }
+        
+        .table-head {
+            display: flex;
+            justify-content: space-between;
+        }
+        .table-left {
+            width: 80%;
+            background-color: #990073;
+            color: #fff;
+            padding: 5px 5px 5px 10px;
+            border-right: 1px solid #000;
+            text-align: left;
+        }
+        
+        .table-right {
+            width: 20%;
+            background-color: #990073;
+            color: #fff;
+            padding: 5px 10px 5px 5px;
+            text-align: right;
+        }
+        .table-content {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .content-left {
+            width: 80%;
+            padding: 5px 5px 5px 10px;
+            border-right: 1px solid #000;
+            text-align: left;
+            border-bottom: 1px solid #000;
+        }
+        .content-right {
+            width: 20%;
+            padding: 5px 10px 5px 5px;
+            text-align: right;
+            border-bottom: 1px solid #000;
+        }
+        
+        .table-border {
+            width: 90%;
+            border: 1px solid #000;
+            margin: 1px auto;
+        }
+        .payment {
+            margin: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .stamp {
+            width: 150px;
+            margin: 50px 0 50px 0;
+        }
+        
+        .pay-right p {
+            margin: 0;
+        }
+        .footer {
+            font-size: 12px;
+        }
+        
+        
+        
+        
     </style>
 </head>
 
@@ -79,7 +161,138 @@
         <div class="recepit-footer">
 
         </div>
+    
+    <div class="student-details">
+        <div class="sec-left">
+          <p>
+            <span>Student Id:</span> 2324/LSIT/09629 <br />
+            <span>Received From :</span> Lonkar Gayatri Yashwant <br />
+            <span>Mothers Name :</span> Rohini
+          </p>
+        </div>
+        <div class="sec-right">
+          <p>
+            <span>Course :</span> BACHELOR OF ENGINEERING <br />
+            <span>Class :</span> SE <br />
+            <span>Branch :</span> COMPUTER <br />
+            <span>Division:</span> SE -Computer-A
+          </p>
+        </div>
     </div>
+    <div class="discription">
+      <div class="table">
+        <div class="table-head">
+          <div class="table-left">
+            <span>Discription</span>
+          </div>
+          <div class="table-right">
+            <span>Amount (Rs)</span>
+          </div>
+        </div>
+        <div class="table-content">
+          <div class="content-left">
+            <span> Student Insurance / 2324</span>
+          </div>
+          <div class="content-right">
+            <span> 25.00</span>
+          </div>
+        </div>
+        <div class="table-content">
+            
+            <div class="content-left">
+                <span> Medical Fees / 2324</span>
+              </div>
+              <div class="content-right">
+                <span> 60.00</span>
+              </div>
+            </div>
+            <div class="table-content">
+              <div class="content-left">
+                <span> Eligibility Fees / 2324</span>
+              </div>
+              <div class="content-right">
+                <span>  650.00</span>
+              </div>
+            </div>
+            <div class="table-content">
+                <div class="content-left">
+                  <span> University Pro - Rata Fees / 2324</span>
+                </div>
+                <div class="content-right">
+                  <span>  2,385.00</span>
+                </div>
+              </div>
+              <div class="table-content">
+                <div class="content-left">
+                  <span>  Student Training Program / 2324</span>
+                </div>
+                <div class="content-right">
+                  <span>  3,000.00</span>
+                </div>
+              </div>
+              <div class="table-content">
+                <div class="content-left">
+                  <span> Caution Money Deposit / 2324</span>
+                </div>
+                <div class="content-right">
+                  <span>  5,000.00</span>
+                </div>
+              </div>
+              <div class="table-content">
+                <div class="content-left">
+                  <span> Development Fees / 2324</span>
+                </div>
+                <div class="content-right">
+                  <span> 12,550.00</span>
+                </div>
+              </div>
+              <div class="table-content">
+                <div class="content-left">
+                  <span> Tuition Fees / 2324</span>
+                </div>
+                <div class="content-right">
+                  <span> 52,725.00</span>
+                </div>
+              </div>
+              <div class="table-content">
+                <div class="content-left">
+                  <span> <b>Total</b></span>
+                </div>
+                <div class="content-right">
+                  <span> 76,395.00</span>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="table-border"></div>
+      <div class="payment">
+        <div class="pay-left">
+            <p>
+                <b>Mode of Payment</b> : e-Fund Transfer <br>
+                <b>Amounts in Words</b> : INR Seventy Six Thousand Three Hundered Ninty Five Only <br> 
+                <b>Instrument No.</b>: pay_SYEfhV0Z6Vb5oP <br>
+                <b>Bank Name</b> : <br>
+                <b>Branch</b> : <br>
+            </p>
+        </div>
+        <div class="pay-right">
+            <img src="./img/stamp.png" alt="stamp" class="stamp">
+            <p>
+                <b>Date</b> : 05-05-2024
+            </p>
+        </div>
+      </div>
+      <div class="footer">
+        <p>* This is a computer generated receipt, no signature is required</p>
+      </div>
+      <div class="border"></div>
+    </div>
+</div>
+    
+  </body>
+</html>
+
+
 
 </body>
 
